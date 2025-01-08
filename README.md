@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+# Summora - Video & PDF Summarization Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Summora is a powerful browser extension that helps you summarize videos (e.g., YouTube) and PDFs with ease. Whether you're a student, professional, or casual user, Summora saves you time by extracting key points and generating concise summaries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Video Summarization**: Summarize any video (e.g., YouTube) into key points.
+- **PDF Summarization**: Extract and summarize text from PDF documents.
+- **AI-Powered**: Uses advanced AI models for accurate and concise summaries.
+- **Easy to Use**: Simple and intuitive interface for seamless summarization.
+- **Cross-Platform**: Works on all major browsers (Chrome, Firefox, Edge, etc.).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## How It Works
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Video Summarization**:
+   - Open a video (e.g., YouTube) in your browser.
+   - Click the Summora extension icon.
+   - Select "Summarize Video" to generate key points.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. **PDF Summarization**:
+   - Open a PDF file in your browser.
+   - Click the Summora extension icon.
+   - Select "Summarize PDF" to extract and summarize the content.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Installation
+
+### Prerequisites
+- A modern browser (Chrome, Firefox, Edge, etc.).
+- Node.js and npm installed (for development).
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/summora.git
+   cd summora
