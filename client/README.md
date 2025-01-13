@@ -37,5 +37,5 @@ Summora is a powerful browser extension that helps you summarize videos (e.g., Y
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/summora.git
+   git clone git@github.com:ShadyTiger008/cautious-octo-palm-tree.git
    cd summora
